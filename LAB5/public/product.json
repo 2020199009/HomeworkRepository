@@ -1,0 +1,53 @@
+{
+    "products": [
+        {
+            "name": "Haribo",
+            "category": "jelly",
+            "price": 2.50,
+            "image": "haribo.jpg"
+        },
+        {
+            "name": "Jell-O",
+            "category": "jelly",
+            "price": 2.00,
+            "image": "jell-o.jpg"
+        },
+        {
+            "name": "Jelly-Belly",
+            "category": "jelly",
+            "price": 1.80,
+            "image": "jellybelly.jpg"
+        },
+        {
+            "name": "Hershey's",
+            "category": "chocolate",
+            "price": 0.85,
+            "image": "hershey's.jpg"
+        },
+        {
+            "name": "M&M's",
+            "category": "chocolate",
+            "price": 2.30,
+            "image": "m&m's.jpg"
+        },
+        {
+            "name": "Ruffles",
+            "category": "chip",
+            "price": 1.75,
+            "image": "ruffles.jpg"
+        },
+        {
+            "name": "Lays",
+            "category": "chip",
+            "price": 1.60,
+            "image": "lays.jpg"
+        },
+        {
+            "name": "Kelly's",
+            "category": "chip",
+            "price": 1.2,
+            "image": "kellys.jpg"
+        }
+    ]
+
+}
