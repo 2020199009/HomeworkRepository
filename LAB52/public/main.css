@@ -1,0 +1,119 @@
+* {max-width: 1020px; margin-left: auto; margin-right: auto; position: relative; }
+h1  {font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30pt; text-align: center;}
+.div1 {
+    width: 450px;
+    height: 450px;
+    border: 5px solid gray;
+    margin: 10px;
+    float: left;
+  }
+.div2 {
+    width: 450px;
+    height: 450px;
+    border: 5px solid gray;
+    margin: 10px;
+    float: left;
+  }
+.notselected   {margin-left: 20px; margin-right: 20px; color: black;text-decoration: none;}
+.line {height: 7pt; width: 1020px; border: none; color: black;background-color: black;}
+.selected {margin-left: 20px; margin-right: 20px;color: black; text-decoration-line: underline; text-decoration-color: red; text-decoration-thickness: 5pt;}
+.button1 {width: 80pt; height: 30pt; border-style: solid; background-color: lightgreen; padding: .5em; 
+    border-color: lime; border-width: 2pt; margin: .5em; font-weight: bold;}
+.cancelbutton {width: 50pt; height: 30pt; border-style: solid; background-color: tomato; padding: .5em; 
+    border-color: red; border-width: 2pt; margin: .5em;font-weight: bold;}
+.button3 {width: 80pt; height: 30pt; border-style: solid; background-color: turquoise; padding: .5em; 
+    border-color: lightseagreen; border-width: 2pt; margin: .5em;font-weight: bold;}
+
+.move {position: relative; animation: movingheader; animation-timing-function: linear; animation-duration: 2s; animation-direction: alternate;}
+
+@keyframes movingheader 
+{
+    from {left: 1020px;}
+    to {left: 0px;}    
+}
+.info {width: 100%; height: 90%;   border: 2px solid gray; background-color: yellow;}
+.imagestyle {width: 100%; height: 100%; align-items: center;  }
+.image1 {transition: transform 2s}
+.image2 {transition: width 2s, height 2s}
+.image1:hover {transform: rotate(360deg)}
+.image2:hover {width:100%; height: 100%;}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.flex-container1 a {
+    text-align: center;
+    width: 80pt;
+    
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.column {
+    flex: 47%;
+    max-width: 47%;
+    height: 300px;
+    margin: 0 2px;
+    margin-bottom: 4px;
+    border: 2px solid gray;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    
+    
+    
+}
+
+
+section {column-count: 2; column-rule: 1px outset black;}
+
+
+
+@media only screen and (max-width: 800px) {
+    .flex-container1 {flex-direction: column;}
+    .column {
+        max-width: 48%;
+        flex: 48%;
+    }
+    section {column-count: 1;}
+}
+
+@media only screen and (max-width: 480px) {
+    .flex-container1 {flex-direction: column;}
+    .column {
+        max-width: 98%;
+        flex: 98%;
+    }
+    section {column-count: 1}
+}
+.vl {
+    border-left-color: black;
+    border-left-width: 10px;
+    border-left-style: solid;
+}
+aside {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-right: 15px;
+    
+}
